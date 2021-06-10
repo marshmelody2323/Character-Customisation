@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpriteChanger : MonoBehaviour
 {
@@ -35,4 +36,10 @@ public class SpriteChanger : MonoBehaviour
         bodyPart.sprite = options[currentOption];
     }
   
+
+
+    public void Submit()
+    {
+        SceneManager.LoadScene(1);
+    }
 }
