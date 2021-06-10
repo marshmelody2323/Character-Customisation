@@ -6,7 +6,7 @@ public class PlayerSave : MonoBehaviour
 {
     public SpriteRenderer bodyPart;
     public List<Sprite> options = new List<Sprite>();
-    public string name;
+    public string itemName;
 
     private void Start()
     {
@@ -15,7 +15,7 @@ public class PlayerSave : MonoBehaviour
 
     public void SetOption()
     {
-        int loadedOption = PlayerPrefs.GetInt(name, 0);
+        int loadedOption = PlayerPrefs.GetInt(itemName, 0);
 
         bodyPart.sprite = options[loadedOption];
 

@@ -14,7 +14,7 @@ public class SpriteChanger : MonoBehaviour
 
     private int currentOption = 0;
 
-    public string name;
+    public string itemName;
 
     public void NextOption()
     {
@@ -26,7 +26,8 @@ public class SpriteChanger : MonoBehaviour
 
         bodyPart.sprite = options[currentOption];
 
-        PlayerPrefs.SetInt(name, currentOption);
+        PlayerPrefs.SetInt(itemName, currentOption);
+        PlayerPrefs.Save();
     }
 
     public void PreviousOption()
