@@ -128,6 +128,32 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3731366268255885406, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
   m_PrefabInstance: {fileID: 3731366268265084070}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &34900442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3731366268255885392, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
+  m_PrefabInstance: {fileID: 3731366268265084070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &34900443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34900442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a59267ee4fa48d4fabbb71aedfc56fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyPart: {fileID: 9759992}
+  options:
+  - {fileID: 21300000, guid: c4216d7d6fba9144f888561219636589, type: 3}
+  - {fileID: 21300000, guid: 6564ce021e339284982b00c72de76da1, type: 3}
+  - {fileID: 21300000, guid: 87065f73197883849a340fa6ae2f2ab8, type: 3}
+  - {fileID: 21300000, guid: c13953f0e10f6c44f9dc1c4f77e7469a, type: 3}
+  - {fileID: 21300000, guid: 8a3b99a991e688347b40f7a9106bf1e3, type: 3}
+  - {fileID: 21300000, guid: 4f44b2b8796278644a95f3dff268944e, type: 3}
+  name: Skin
 --- !u!1 &39182667
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,6 +614,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e922bd5239a374a44bb7eba712178a83, type: 3}
   - {fileID: 21300000, guid: 126fa6b672d97e540b3e1d7826677151, type: 3}
   - {fileID: 21300000, guid: e5eafd7f43097c84192780275f792b54, type: 3}
+  name: Hair
 --- !u!212 &516093213 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3731366268151939515, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
@@ -910,6 +937,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 31c4c5a58b7036145917e1d10d0800e8, type: 3}
   - {fileID: 21300000, guid: 6bb6528bbc3001e4c8e8e5c448c2b67a, type: 3}
   - {fileID: 21300000, guid: 812e3dce293496144bc2b5ec82283f1c, type: 3}
+  name: Pants
 --- !u!1 &675853748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,6 +1254,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743440348}
   m_CullTransparentMesh: 1
+--- !u!1 &751172415 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3731366267235148023, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
+  m_PrefabInstance: {fileID: 3731366268265084070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &751172416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751172415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a59267ee4fa48d4fabbb71aedfc56fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyPart: {fileID: 1203606611}
+  options:
+  - {fileID: 21300000, guid: 5b0cebe90f9927644ae44e95a8f1ba6a, type: 3}
+  - {fileID: 21300000, guid: d44aef8374cdaa8438df5ade9bf867e6, type: 3}
+  - {fileID: 21300000, guid: 46281ee39f4477841906c8706456574e, type: 3}
+  - {fileID: 21300000, guid: cfc4541e995a490409030bc306629013, type: 3}
+  - {fileID: 21300000, guid: 3a27d7caf65cbba4b83074b6bafef69d, type: 3}
+  name: Eyes
 --- !u!1 &775140834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1330,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 25b453afd1995ff4daf98c74f2c80ae8, type: 3}
   - {fileID: 21300000, guid: 1d6a1aaf185f45d4eb19a4259fbd1c17, type: 3}
   - {fileID: 21300000, guid: 4fb5442ef3bb4c743b0ec585fc815bf3, type: 3}
+  name: Shirt
 --- !u!1 &820087761
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,6 +1385,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c13953f0e10f6c44f9dc1c4f77e7469a, type: 3}
   - {fileID: 21300000, guid: 8a3b99a991e688347b40f7a9106bf1e3, type: 3}
   - {fileID: 21300000, guid: 4f44b2b8796278644a95f3dff268944e, type: 3}
+  name: Skin
 --- !u!1 &832908922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,6 +1465,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832908922}
   m_CullTransparentMesh: 1
+--- !u!1 &915951743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3731366268151939517, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
+  m_PrefabInstance: {fileID: 3731366268265084070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &915951744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915951743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a59267ee4fa48d4fabbb71aedfc56fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyPart: {fileID: 516093213}
+  options:
+  - {fileID: 21300000, guid: 31c4c5a58b7036145917e1d10d0800e8, type: 3}
+  - {fileID: 21300000, guid: 6bb6528bbc3001e4c8e8e5c448c2b67a, type: 3}
+  - {fileID: 21300000, guid: 812e3dce293496144bc2b5ec82283f1c, type: 3}
+  name: Pants
 --- !u!1 &974678131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2627,6 +2705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPart: {fileID: 0}
   options: []
+  name: 
 --- !u!1 &1355154100
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,6 +2760,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d44aef8374cdaa8438df5ade9bf867e6, type: 3}
   - {fileID: 21300000, guid: 46281ee39f4477841906c8706456574e, type: 3}
   - {fileID: 21300000, guid: cfc4541e995a490409030bc306629013, type: 3}
+  name: Eye
 --- !u!1 &1411466828
 GameObject:
   m_ObjectHideFlags: 0
@@ -3026,6 +3106,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554832923}
   m_CullTransparentMesh: 1
+--- !u!1 &1598032420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3731366267094876110, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
+  m_PrefabInstance: {fileID: 3731366268265084070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1598032421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598032420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a59267ee4fa48d4fabbb71aedfc56fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyPart: {fileID: 1606421354}
+  options:
+  - {fileID: 21300000, guid: 1d6a1aaf185f45d4eb19a4259fbd1c17, type: 3}
+  - {fileID: 21300000, guid: 4fb5442ef3bb4c743b0ec585fc815bf3, type: 3}
+  - {fileID: 21300000, guid: 25b453afd1995ff4daf98c74f2c80ae8, type: 3}
+  name: Shirt
 --- !u!212 &1606421354 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3731366267094876108, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
@@ -3376,6 +3479,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648156507}
   m_CullTransparentMesh: 1
+--- !u!1 &1665688607 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3731366267361166322, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
+  m_PrefabInstance: {fileID: 3731366268265084070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1665688608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665688607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a59267ee4fa48d4fabbb71aedfc56fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyPart: {fileID: 1310766934}
+  options:
+  - {fileID: 21300000, guid: 6f4eb12a5835f1543a286e9965043701, type: 3}
+  - {fileID: 21300000, guid: 4673973e06df2e141b3ad1a7f4031b3b, type: 3}
+  - {fileID: 21300000, guid: 2b2bef1dfe444604ab444cad2989b00d, type: 3}
+  - {fileID: 21300000, guid: a5ffb606062b73441aaa87b7faab89da, type: 3}
+  - {fileID: 21300000, guid: 5938822b29d4d174ab956f194c30592f, type: 3}
+  name: Mouth
 --- !u!1 &1667939046
 GameObject:
   m_ObjectHideFlags: 0
@@ -3642,6 +3770,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675720600}
   m_CullTransparentMesh: 1
+--- !u!1 &1704132798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3731366266529688605, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
+  m_PrefabInstance: {fileID: 3731366268265084070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1704132799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704132798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a59267ee4fa48d4fabbb71aedfc56fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyPart: {fileID: 2041583805}
+  options:
+  - {fileID: 21300000, guid: 9be6a6017060f5d42b48f0292f9bbe68, type: 3}
+  - {fileID: 21300000, guid: 0f6e480ce74658e4583691151b230458, type: 3}
+  - {fileID: 21300000, guid: 6c712211bfa56f240a73b130f50bb4b7, type: 3}
+  - {fileID: 21300000, guid: c49134fae4c3cd043ba01e62a79f440a, type: 3}
+  - {fileID: 21300000, guid: 753446d11400a3649ae65c7d61b6208f, type: 3}
+  - {fileID: 21300000, guid: 59bde9982fac98e4d83ab1e06b78cb52, type: 3}
+  - {fileID: 21300000, guid: f645d29127ec50f4ea16f085d5a4c5cd, type: 3}
+  - {fileID: 21300000, guid: b52fe3428903489478095bd6e4931041, type: 3}
+  - {fileID: 21300000, guid: f6be4a38eabb09945a892bcb9dfe837f, type: 3}
+  - {fileID: 21300000, guid: 85e5d6ae8a1ffb14b9ce373e22c53dc0, type: 3}
+  - {fileID: 21300000, guid: 729330aed3d1d734cbf038234c57457c, type: 3}
+  - {fileID: 21300000, guid: 2e4a8f98dbf961944a644771ebc23cf1, type: 3}
+  - {fileID: 21300000, guid: f1c2be2db7b746a498eae3affc3e03ce, type: 3}
+  - {fileID: 21300000, guid: 6700c0bfe0bf5be43894d55171aa3ce3, type: 3}
+  - {fileID: 21300000, guid: ca82d21cbf77d6449ad12dc5a16d7a56, type: 3}
+  - {fileID: 21300000, guid: 535180bc1a14e364ea19a09856899d43, type: 3}
+  - {fileID: 21300000, guid: 92213252852e47344b537f00cd8332c7, type: 3}
+  - {fileID: 21300000, guid: 1ba275df2a66b4045b90e7116d095a2c, type: 3}
+  - {fileID: 21300000, guid: 779f62ebafa462742a57a3404d385f79, type: 3}
+  - {fileID: 21300000, guid: 83488b4a37533814b946dd37b616685a, type: 3}
+  - {fileID: 21300000, guid: 20e560f3ef8998b4883a402683fdc1f7, type: 3}
+  - {fileID: 21300000, guid: 4575a494fa541954190eca88535365d4, type: 3}
+  - {fileID: 21300000, guid: cfdd669533571b94896b9306780132db, type: 3}
+  - {fileID: 21300000, guid: 73049ff0d33e78940b2581d8dd18ee26, type: 3}
+  - {fileID: 21300000, guid: ee5b7002798469d41885578c8e008476, type: 3}
+  - {fileID: 21300000, guid: 269a95a723fd9cc469b09ab2f72d9709, type: 3}
+  - {fileID: 21300000, guid: c4df58cecb3ef5f4a9293dd7050f77d2, type: 3}
+  - {fileID: 21300000, guid: e922bd5239a374a44bb7eba712178a83, type: 3}
+  - {fileID: 21300000, guid: 126fa6b672d97e540b3e1d7826677151, type: 3}
+  - {fileID: 21300000, guid: e5eafd7f43097c84192780275f792b54, type: 3}
+  name: Hair
 --- !u!1 &1746365602
 GameObject:
   m_ObjectHideFlags: 0
@@ -4065,6 +4243,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5938822b29d4d174ab956f194c30592f, type: 3}
   - {fileID: 21300000, guid: 2b2bef1dfe444604ab444cad2989b00d, type: 3}
   - {fileID: 21300000, guid: a5ffb606062b73441aaa87b7faab89da, type: 3}
+  name: Mouth
 --- !u!212 &2041583805 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3731366266529688603, guid: 79f09e0231d651f4b9c1f08cd71986d7, type: 3}
