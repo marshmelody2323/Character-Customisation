@@ -147,12 +147,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPart: {fileID: 9759992}
   options:
-  - {fileID: 21300000, guid: c4216d7d6fba9144f888561219636589, type: 3}
-  - {fileID: 21300000, guid: 6564ce021e339284982b00c72de76da1, type: 3}
-  - {fileID: 21300000, guid: 87065f73197883849a340fa6ae2f2ab8, type: 3}
-  - {fileID: 21300000, guid: c13953f0e10f6c44f9dc1c4f77e7469a, type: 3}
-  - {fileID: 21300000, guid: 8a3b99a991e688347b40f7a9106bf1e3, type: 3}
   - {fileID: 21300000, guid: 4f44b2b8796278644a95f3dff268944e, type: 3}
+  - {fileID: 21300000, guid: 8a3b99a991e688347b40f7a9106bf1e3, type: 3}
+  - {fileID: 21300000, guid: c13953f0e10f6c44f9dc1c4f77e7469a, type: 3}
+  - {fileID: 21300000, guid: 87065f73197883849a340fa6ae2f2ab8, type: 3}
+  - {fileID: 21300000, guid: 6564ce021e339284982b00c72de76da1, type: 3}
+  - {fileID: 21300000, guid: c4216d7d6fba9144f888561219636589, type: 3}
   itemName: Skin
 --- !u!1 &39182667
 GameObject:
@@ -1273,11 +1273,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPart: {fileID: 1203606611}
   options:
-  - {fileID: 21300000, guid: 5b0cebe90f9927644ae44e95a8f1ba6a, type: 3}
-  - {fileID: 21300000, guid: 3a27d7caf65cbba4b83074b6bafef69d, type: 3}
-  - {fileID: 21300000, guid: d44aef8374cdaa8438df5ade9bf867e6, type: 3}
-  - {fileID: 21300000, guid: 46281ee39f4477841906c8706456574e, type: 3}
   - {fileID: 21300000, guid: cfc4541e995a490409030bc306629013, type: 3}
+  - {fileID: 21300000, guid: 46281ee39f4477841906c8706456574e, type: 3}
+  - {fileID: 21300000, guid: d44aef8374cdaa8438df5ade9bf867e6, type: 3}
+  - {fileID: 21300000, guid: 3a27d7caf65cbba4b83074b6bafef69d, type: 3}
+  - {fileID: 21300000, guid: 5b0cebe90f9927644ae44e95a8f1ba6a, type: 3}
   itemName: Eyes
 --- !u!1 &775140834
 GameObject:
@@ -3124,8 +3124,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPart: {fileID: 1606421354}
   options:
-  - {fileID: 21300000, guid: 1d6a1aaf185f45d4eb19a4259fbd1c17, type: 3}
   - {fileID: 21300000, guid: 4fb5442ef3bb4c743b0ec585fc815bf3, type: 3}
+  - {fileID: 21300000, guid: 1d6a1aaf185f45d4eb19a4259fbd1c17, type: 3}
   - {fileID: 21300000, guid: 25b453afd1995ff4daf98c74f2c80ae8, type: 3}
   itemName: Shirt
 --- !u!212 &1606421354 stripped
@@ -3499,9 +3499,9 @@ MonoBehaviour:
   options:
   - {fileID: 21300000, guid: 6f4eb12a5835f1543a286e9965043701, type: 3}
   - {fileID: 21300000, guid: 4673973e06df2e141b3ad1a7f4031b3b, type: 3}
+  - {fileID: 21300000, guid: 5938822b29d4d174ab956f194c30592f, type: 3}
   - {fileID: 21300000, guid: 2b2bef1dfe444604ab444cad2989b00d, type: 3}
   - {fileID: 21300000, guid: a5ffb606062b73441aaa87b7faab89da, type: 3}
-  - {fileID: 21300000, guid: 5938822b29d4d174ab956f194c30592f, type: 3}
   itemName: Mouth
 --- !u!1 &1667939046
 GameObject:

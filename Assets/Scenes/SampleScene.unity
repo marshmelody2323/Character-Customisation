@@ -1161,11 +1161,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPart: {fileID: 1703721472}
   options:
-  - {fileID: 21300000, guid: 5b0cebe90f9927644ae44e95a8f1ba6a, type: 3}
-  - {fileID: 21300000, guid: 3a27d7caf65cbba4b83074b6bafef69d, type: 3}
-  - {fileID: 21300000, guid: d44aef8374cdaa8438df5ade9bf867e6, type: 3}
-  - {fileID: 21300000, guid: 46281ee39f4477841906c8706456574e, type: 3}
   - {fileID: 21300000, guid: cfc4541e995a490409030bc306629013, type: 3}
+  - {fileID: 21300000, guid: 46281ee39f4477841906c8706456574e, type: 3}
+  - {fileID: 21300000, guid: d44aef8374cdaa8438df5ade9bf867e6, type: 3}
+  - {fileID: 21300000, guid: 3a27d7caf65cbba4b83074b6bafef69d, type: 3}
+  - {fileID: 21300000, guid: 5b0cebe90f9927644ae44e95a8f1ba6a, type: 3}
   itemName: Eyes
 --- !u!114 &1703721481
 MonoBehaviour:
@@ -1181,12 +1181,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPart: {fileID: 1703721474}
   options:
-  - {fileID: 21300000, guid: c4216d7d6fba9144f888561219636589, type: 3}
-  - {fileID: 21300000, guid: 6564ce021e339284982b00c72de76da1, type: 3}
-  - {fileID: 21300000, guid: 87065f73197883849a340fa6ae2f2ab8, type: 3}
-  - {fileID: 21300000, guid: c13953f0e10f6c44f9dc1c4f77e7469a, type: 3}
-  - {fileID: 21300000, guid: 8a3b99a991e688347b40f7a9106bf1e3, type: 3}
   - {fileID: 21300000, guid: 4f44b2b8796278644a95f3dff268944e, type: 3}
+  - {fileID: 21300000, guid: 8a3b99a991e688347b40f7a9106bf1e3, type: 3}
+  - {fileID: 21300000, guid: c13953f0e10f6c44f9dc1c4f77e7469a, type: 3}
+  - {fileID: 21300000, guid: 87065f73197883849a340fa6ae2f2ab8, type: 3}
+  - {fileID: 21300000, guid: 6564ce021e339284982b00c72de76da1, type: 3}
+  - {fileID: 21300000, guid: c4216d7d6fba9144f888561219636589, type: 3}
   itemName: Skin
 --- !u!114 &1703721482
 MonoBehaviour:

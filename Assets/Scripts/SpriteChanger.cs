@@ -33,12 +33,13 @@ public class SpriteChanger : MonoBehaviour
     public void PreviousOption()
     {
         currentOption--;
-        if(currentOption <= 0)
+        if(currentOption < 0)
         {
             currentOption = options.Count - 1; //Makes it so it just resets and cycles through again but the other way around
         }
-
         bodyPart.sprite = options[currentOption];
+        PlayerPrefs.SetInt(itemName, currentOption);
+        PlayerPrefs.Save();
     }
 
     public void Submit()

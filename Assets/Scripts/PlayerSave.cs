@@ -12,6 +12,10 @@ public class PlayerSave : MonoBehaviour
     {
         SetOption();
     }
+    private void Update()
+    {
+        SetOption();
+    }
 
     public void SetOption()
     {
